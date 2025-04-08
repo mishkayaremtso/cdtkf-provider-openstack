@@ -14,6 +14,7 @@ const project = new CdktfProviderProject({
   minNodeVersion: "18.12.0",
   typescriptVersion: "~5.5.0", // JSII and TS should always use the same major/minor version range
   jsiiVersion: "~5.5.0", // JSII and TS should always use the same major/minor version range
+  projenVersion: "0.87.4",
   devDeps: ["@cdktf/provider-project@^0.6.0"],
   isDeprecated: false,
 });
