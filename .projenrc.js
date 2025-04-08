@@ -6,6 +6,7 @@
 const { CdktfProviderProject } = require("@cdktf/provider-project");
 
 const project = new CdktfProviderProject({
+  description: 'Generates typescript interfaces out of JSON or YAML files in projen.',
   useCustomGithubRunner: false,
   terraformProvider: "terraform-provider-openstack/openstack@~> 3.0.0",
   cdktfVersion: "^0.20.0",
