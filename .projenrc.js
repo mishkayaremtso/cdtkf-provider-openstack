@@ -5,6 +5,7 @@
 
 const { CdktfProviderProject } = require("@cdktf/provider-project");
 
+const typescriptVersion = "~5.4.0";
 const project = new CdktfProviderProject({
   description: 'Generates typescript interfaces out of JSON or YAML files in projen.',
   useCustomGithubRunner: false,
